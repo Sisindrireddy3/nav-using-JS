@@ -1,0 +1,50 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    
+}
+body{
+    min-height: 100vh;
+    background-image: url(images/pic);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0px;
+    left: 0px; 
+    right: 0px;
+    background: white;
+    display: flex;
+    z-index: 1000;
+    padding: 0px 7%;
+    align-items: center;
+    justify-content: space-between;
+    box-shadow: 0 5px 10px black;
+}
+header .logo{
+    font-weight: bolder;
+    font-size: 25px;
+    color: black;
+}
+.navbar ul{
+  list-style: none;
+}
+.navbar ul li{
+    position: relative;
+    float: left;
+}
+.navbar ul li a{
+    font-size: 20px;
+    padding: 20px;
+    color: black;
+    display: block;
+}
+.navbar ul li a:hover{
+    background-color: black;
+    color: white;
+
+}
